@@ -1,0 +1,97 @@
+{
+    "menu": {
+      "starters": [
+        {"item": "Tzatziki", "price": 3.70},
+        {"item": "Tirokafteri", "price": 3.70},
+        {"item": "Spicy Cheese Sauce", "price": 3.70},
+        {"item": "Humus", "price": 3.70},
+        {"item": "Oven Fetta", "price": 6.80},
+        {"item": "Fetta", "price": 3.80},
+        {"item": "Fries", "price": 3.80},
+        {"item": "Fries with Cheese", "price": 4.50},
+        {"item": "Fries with Fetta & Oregano", "price": 5.50},
+        {"item": "Olives", "price": 3.80}
+      ],
+      "salads": [
+        {"item": "Greek Salad", "price": 8.20},
+        {"item": "Dakos", "price": 6.20},
+        {"item": "Chicken Salad", "price": 8.40}
+      ],
+      "pitta_wraps": [
+        {"item": "Pitta Yeeros Pork", "price": 7.50},
+        {"item": "Pitta Yeeros Chicken", "price": 7.50},
+        {"item": "Pitta Yeeros Mix Pork & Chicken", "price": 7.80},
+        {"item": "Pitta Skewers Pork", "price": 7.35}
+      ],
+      "portions": [
+        {"item": "Yeeros Pork", "price": 14.95},
+        {"item": "Yeeros Chicken", "price": 14.70},
+        {"item": "Yeeros Mix Pork & Chicken", "price": 14.95},
+        {"item": "Skewers Pork", "price": 12.50}
+      ],
+      "yeeros_burgers": [
+        {"item": "Chicken Yeeros Burger", "price": 9.90},
+        {"item": "Pork Yeeros Burger", "price": 9.90},
+        {"item": "Mixed Yeeros Burger (Pork & Chicken)", "price": 10.40}
+      ],
+      "skepasti": [
+        {"item": "Chicken", "price": 15.50},
+        {"item": "Pork", "price": 15.80}
+
+      ],
+      "mixed_grill": [
+        {"item": "Mixed Grill for 2", "price": 29.90},
+        {"item": "Fully Combo Mix Grill", "price": 35.90}
+
+      ],
+      "halal": [
+        {"item": "Chicken Skewers", "price": 12.50},
+        {"item": "Kebab Portion", "price": 12.50}
+
+      ],
+      "on_its_own": [
+        {"item": "Pork Skewer", "price": 3.30},
+        {"item": "Chicken Skewer", "price": 3.30}
+
+      ],
+      "desserts": [
+        {"item": "Ferrero", "price": 5.30},
+        {"item": "Cheese Cake", "price": 5.30},
+        {"item": "Ekmek Kataifi", "price": 5.30}
+      ],
+      "soft_drinks": [
+        {"item": "Water", "price": 1.80},
+        {"item": "Coka Cola (Zero, Diet)", "price": 1.80}
+      ],
+      "kids_menu": [
+        {"item": "Mini Pitta Yeeros Chicken", "price": 5.10},
+        {"item": "Mini Pitta Yeeros Pork", "price": 5.10}
+      ]
+    }
+  }
+  
+
+
+
+  self.frame_starters = tk.Frame(root)
+  self.frame_starters.pack()
+  self.frame_salads = tk.Frame(root)
+  self.frame_salads.pack()
+  self.frame_pitta_warps = tk.Frame(root)
+  self.frame_pitta_warps.pack()
+  self.frame_portions = tk.Frame(root)
+  self.frame_portions.pack()
+  self.frame_yeeros_burgers = tk.Frame(root)
+  self.frame_yeeros_burgers.pack()
+  self.frame_skepasti = tk.Frame(root)
+  self.frame_skepasti.pack()
+  self.frame_halal = tk.Frame(root)
+  self.frame_halal.pack()
+  self.frame_on_its_own = tk.Frame(root)
+  self.frame_on_its_own.pack()
+  self.frame_desserts = tk.Frame(root)
+  self.frame_desserts.pack()
+  self.frame_soft_drinks = tk.Frame(root)
+  self.frame_soft_drinks.pack()
+  self.frame_kids_menu = tk.Frame(root)
+  self.frame_kids_menu.pack()
