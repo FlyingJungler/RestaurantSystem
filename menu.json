@@ -70,28 +70,3 @@
     }
   }
   
-
-
-
-  self.frame_starters = tk.Frame(root)
-  self.frame_starters.pack()
-  self.frame_salads = tk.Frame(root)
-  self.frame_salads.pack()
-  self.frame_pitta_warps = tk.Frame(root)
-  self.frame_pitta_warps.pack()
-  self.frame_portions = tk.Frame(root)
-  self.frame_portions.pack()
-  self.frame_yeeros_burgers = tk.Frame(root)
-  self.frame_yeeros_burgers.pack()
-  self.frame_skepasti = tk.Frame(root)
-  self.frame_skepasti.pack()
-  self.frame_halal = tk.Frame(root)
-  self.frame_halal.pack()
-  self.frame_on_its_own = tk.Frame(root)
-  self.frame_on_its_own.pack()
-  self.frame_desserts = tk.Frame(root)
-  self.frame_desserts.pack()
-  self.frame_soft_drinks = tk.Frame(root)
-  self.frame_soft_drinks.pack()
-  self.frame_kids_menu = tk.Frame(root)
-  self.frame_kids_menu.pack()
